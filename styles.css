@@ -19,7 +19,7 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: 20%
   font-size: 8vw;
 }
 
@@ -91,7 +91,6 @@ input[type="checkbox"]:checked + .slider:before {
 .placeholder-box {
   width: 80px;
   height: 100px;
-  margin-bottom: 20px;
   border-radius: 3px;
   display: flex;
   flex-direction: row;
@@ -108,7 +107,6 @@ input[type="checkbox"]:checked + .slider:before {
   height: 130px;
   background: #39487e;
 /*     box-shadow: 1px 1px 2px #39487e ; */
-  margin-bottom: 20px;
   border-radius: 7px;
   box-shadow: 2px 2px 5px #232469;
 }
@@ -117,9 +115,12 @@ input[type="checkbox"]:checked + .slider:before {
   width: 100px;
   height: 130px;
   background: #39487e;
-  margin-bottom: 20px;
   border-radius: 7px;
   box-shadow: 2px 2px 5px #232469;
+}
+
+.placeholder-boxx:nth-child(1){
+background: darkgrey;
 }
 
 .placeholder-boxx .placeholder-content {
@@ -168,4 +169,19 @@ input[type="checkbox"]:checked + .slider:before {
       width: 60px;
       height: 150px;
   }
+}
+
+.calender-events{
+ display: flex;
+ border-bottom: 2px solid #232468;
+ justify-content: space-between;
+height: 30px;
+border-radius: 7px;
+ margin: 5px;
+}
+
+.heading{
+text-align: center;
+margin: 0;
+padding: 0;
 }
