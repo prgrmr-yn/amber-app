@@ -1,11 +1,10 @@
 // API KEYS
-
-const rapidApiKey = '';
-const rapidApiHost = ''
-const amberKey = '';
-const amberSite = '';
-const authorizationToken = 'Bearer';
-const calendarId = '';
+const rapidApiKey = '5382c9f31dmsh152e2f8e48fa6dfp113c20jsnd40be36d07ab';
+const rapidApiHost = 'weatherapi-com.p.rapidapi.com'
+const amberKey = 'psk_636774e0461a10b3bcc960532f51afae';
+const amberSite = '01EWZ1KPMH2F981DW2HMJB2B27';
+const authorizationToken = 'Bearer dLeYbhJ6iwCwjuCOHydLg0iNoOvlx9dd2ywrkNA_mAFc6stu';
+const calendarId = 'DGgPowYJxy4h';
 const apiUrl = `https://timetreeapis.com/calendars/${calendarId}/upcoming_events?timezone=Asia/Tokyo&days=1&include=creator`;
 
 
